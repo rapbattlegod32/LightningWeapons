@@ -19,7 +19,7 @@
 			"net.alex.lightningweaponsmod.LightningWeaponsMod"
 		],
 		"client": [
-			"net.alex.lightningweaponsmod.LightningWeaponsClient"
+			"net.alex.lightningweaponsmod.LightningWeaponsModClient"
 		],
 		"fabric-datagen": [
 			"net.alex.lightningweaponsmod.LightningWeaponsModDataGenerator"
