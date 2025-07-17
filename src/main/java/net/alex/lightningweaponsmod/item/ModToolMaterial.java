@@ -6,7 +6,8 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    ;
+    LIGHTNING(5, 650, 4.5f, 3.5f, 26,
+            () -> Ingredient.ofItems(ModItems.LIGHTNING_STICK));
 
     private final int miningLevel;
     private final int itemDurability;

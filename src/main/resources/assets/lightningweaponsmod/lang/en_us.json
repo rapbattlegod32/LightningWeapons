@@ -1,4 +1,7 @@
 {
-  "item.lightningweaponsmod.lightningstick": "Lightning Stick",
-  "itemgroup.lightning": "Lightning Group"
+  "item.lightningweaponsmod.lightning_stick": "Lightning Stick",
+
+  "itemgroup.lightning": "Lightning Group",
+
+  "item.lightningweaponsmod.lightning_sword": "Lightning Sword",
 }

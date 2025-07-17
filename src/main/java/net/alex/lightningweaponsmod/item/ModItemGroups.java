@@ -14,7 +14,9 @@ public class ModItemGroups {
     public static final ItemGroup LIGHTNING = Registry.register(Registries.ITEM_GROUP, new Identifier(LightningWeaponsMod.MOD_ID, "lightning"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.lightning"))
                     .icon(() -> new ItemStack(Items.LIGHTNING_ROD)).entries((displayContext, entries) -> {
+
                         entries.add(ModItems.LIGHTNING_STICK);
+                        entries.add(ModItems.LIGHTNING_SWORD);
                     }).build());
 
     public static void registerItemGroups() {

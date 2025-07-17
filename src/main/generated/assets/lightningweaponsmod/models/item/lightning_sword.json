@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "lightningweaponsmod:item/lightningstick"
+    "layer0": "lightningweaponsmod:item/lightning_sword"
   }
 }

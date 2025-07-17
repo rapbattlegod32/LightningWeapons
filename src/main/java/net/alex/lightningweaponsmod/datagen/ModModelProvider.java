@@ -19,10 +19,6 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.LIGHTNING_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.LIGHTNING_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.LIGHTNING_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.LIGHTNING_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.LIGHTNING_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.LIGHTNING_STICK, Models.HANDHELD);
     }

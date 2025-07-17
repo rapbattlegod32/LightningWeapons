@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "lightningweaponsmod:lightning_stick"
+    }
+  },
+  "pattern": [
+    "D",
+    "D",
+    "S"
+  ],
+  "result": {
+    "item": "lightningweaponsmod:lightning_sword"
+  },
+  "show_notification": true
+}

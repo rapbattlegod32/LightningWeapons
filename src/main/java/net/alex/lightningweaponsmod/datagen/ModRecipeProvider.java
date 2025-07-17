@@ -29,5 +29,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.TRIDENT), conditionsFromItem(Items.TRIDENT))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.LIGHTNING_STICK)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.LIGHTNING_SWORD, 1)
+                .pattern("D")
+                .pattern("D")
+                .pattern("S")
+                .input('D', Items.DIAMOND)
+                .input('S', ModItems.LIGHTNING_STICK)
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .criterion(hasItem(ModItems.LIGHTNING_STICK), conditionsFromItem(ModItems.LIGHTNING_STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.LIGHTNING_SWORD)));
     }
 }
