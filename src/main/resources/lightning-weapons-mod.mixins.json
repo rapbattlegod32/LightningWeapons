@@ -5,6 +5,10 @@
 	"mixins": [
 		"ExampleMixin"
 	],
+	"client": [
+		"AbstractClientPlayerEntityMixin",
+		"PersistentProjectileEntityMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}

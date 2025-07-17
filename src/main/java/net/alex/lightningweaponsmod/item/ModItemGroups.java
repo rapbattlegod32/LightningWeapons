@@ -17,6 +17,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.LIGHTNING_STICK);
                         entries.add(ModItems.LIGHTNING_SWORD);
+                        entries.add(ModItems.LIGHTNING_BOW);
                     }).build());
 
     public static void registerItemGroups() {

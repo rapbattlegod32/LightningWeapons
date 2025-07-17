@@ -18,9 +18,13 @@ public class ModItems {
     public static final Item LIGHTNING_SWORD = registerItem("lightning_sword",
             new LightningSworditem(ModToolMaterial.LIGHTNING, 10, 3f, new FabricItemSettings()));
 
+    public static final Item LIGHTNING_BOW = registerItem("lightning_bow",
+            new BowItem(new Item.Settings().maxDamage(500)));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(LIGHTNING_STICK);
         entries.add(LIGHTNING_SWORD);
+        entries.add(LIGHTNING_BOW);
     }
 
     private static Item registerItem(String name, Item item){
