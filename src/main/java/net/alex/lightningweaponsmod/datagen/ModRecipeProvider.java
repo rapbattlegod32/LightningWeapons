@@ -38,5 +38,45 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .criterion(hasItem(ModItems.LIGHTNING_STICK), conditionsFromItem(ModItems.LIGHTNING_STICK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.LIGHTNING_SWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.LIGHTNING_BOW, 1)
+                .pattern(" LS")
+                .pattern("L S")
+                .pattern(" LS")
+                .input('L', ModItems.LIGHTNING_STICK)
+                .input('S', Items.STRING)
+                .criterion(hasItem(ModItems.LIGHTNING_STICK), conditionsFromItem(ModItems.LIGHTNING_STICK))
+                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.LIGHTNING_BOW)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.LIGHTNING_HELMET, 1)
+                .pattern("SSS")
+                .pattern("S S")
+                .input('S', ModItems.LIGHTNING_STICK)
+                .criterion(hasItem(ModItems.LIGHTNING_STICK), conditionsFromItem(ModItems.LIGHTNING_STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.LIGHTNING_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.LIGHTNING_CHESTPLATE, 1)
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModItems.LIGHTNING_STICK)
+                .criterion(hasItem(ModItems.LIGHTNING_STICK), conditionsFromItem(ModItems.LIGHTNING_STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.LIGHTNING_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.LIGHTNING_LEGGINGS, 1)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.LIGHTNING_STICK)
+                .criterion(hasItem(ModItems.LIGHTNING_STICK), conditionsFromItem(ModItems.LIGHTNING_STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.LIGHTNING_LEGGINGS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.LIGHTNING_BOOTS, 1)
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.LIGHTNING_STICK)
+                .criterion(hasItem(ModItems.LIGHTNING_STICK), conditionsFromItem(ModItems.LIGHTNING_STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.LIGHTNING_BOOTS)));
     }
 }

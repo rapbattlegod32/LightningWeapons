@@ -3,7 +3,9 @@
 	"package": "net.alex.lightningweaponsmod.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"EntityMixin",
+		"PlayerEntityMixin"
 	],
 	"client": [
 		"AbstractClientPlayerEntityMixin",

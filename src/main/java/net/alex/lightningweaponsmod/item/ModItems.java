@@ -21,10 +21,23 @@ public class ModItems {
     public static final Item LIGHTNING_BOW = registerItem("lightning_bow",
             new BowItem(new Item.Settings().maxDamage(500)));
 
+    public static final Item LIGHTNING_HELMET = registerItem("lightning_helmet",
+            new ArmorItem(ModArmorMaterials.LIGHTNING, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item LIGHTNING_CHESTPLATE = registerItem("lightning_chestplate",
+            new ArmorItem(ModArmorMaterials.LIGHTNING, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item LIGHTNING_LEGGINGS = registerItem("lightning_leggings",
+            new ArmorItem(ModArmorMaterials.LIGHTNING, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item LIGHTNING_BOOTS = registerItem("lightning_boots",
+            new ArmorItem(ModArmorMaterials.LIGHTNING, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(LIGHTNING_STICK);
         entries.add(LIGHTNING_SWORD);
         entries.add(LIGHTNING_BOW);
+        entries.add(LIGHTNING_HELMET);
+        entries.add(LIGHTNING_CHESTPLATE);
+        entries.add(LIGHTNING_LEGGINGS);
+        entries.add(LIGHTNING_BOOTS);
     }
 
     private static Item registerItem(String name, Item item){

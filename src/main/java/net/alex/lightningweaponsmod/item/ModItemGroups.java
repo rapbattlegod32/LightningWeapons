@@ -18,6 +18,10 @@ public class ModItemGroups {
                         entries.add(ModItems.LIGHTNING_STICK);
                         entries.add(ModItems.LIGHTNING_SWORD);
                         entries.add(ModItems.LIGHTNING_BOW);
+                        entries.add(ModItems.LIGHTNING_HELMET);
+                        entries.add(ModItems.LIGHTNING_CHESTPLATE);
+                        entries.add(ModItems.LIGHTNING_LEGGINGS);
+                        entries.add(ModItems.LIGHTNING_BOOTS);
                     }).build());
 
     public static void registerItemGroups() {

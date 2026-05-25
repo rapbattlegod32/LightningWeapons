@@ -4,5 +4,14 @@
   "itemgroup.lightning": "Lightning Group",
 
   "item.lightningweaponsmod.lightning_sword": "Lightning Sword",
-  "item.lightningweaponsmod.lightning_bow": "Lightning Bow"
+  "item.lightningweaponsmod.lightning_bow": "Lightning Bow",
+
+  "item.lightningweaponsmod.lightning_helmet": "Lightning Helmet",
+  "item.lightningweaponsmod.lightning_chestplate": "Lightning Chestplate",
+  "item.lightningweaponsmod.lightning_leggings": "Lightning Leggings",
+  "item.lightningweaponsmod.lightning_boots": "Lightning Boots",
+
+  "jei.lightningweaponsmod.lightning_sword.desc": "Strikes the target with a lightning bolt on every hit. Effective against cobwebs.",
+  "jei.lightningweaponsmod.lightning_bow.desc": "Arrows summon a lightning bolt on whatever they hit.",
+  "jei.lightningweaponsmod.lightning_armor.desc": "While wearing any Lightning armor piece, attackers are struck by lightning and the wearer is immune to lightning damage and ignition."
 }

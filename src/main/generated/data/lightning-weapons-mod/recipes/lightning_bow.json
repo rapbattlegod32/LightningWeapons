@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "lightningweaponsmod:lightning_stick"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    " LS",
+    "L S",
+    " LS"
+  ],
+  "result": {
+    "item": "lightningweaponsmod:lightning_bow"
+  },
+  "show_notification": true
+}
